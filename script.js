@@ -95,7 +95,6 @@ document.addEventListener('DOMContentLoaded', () => {
             appleIndex = Math.floor(Math.random() * squares.length);
         }while(squares[appleIndex].classList.contains('snake'));  //but the apple musn't appear in a div currently containing the snake, so an apple can't spawn on the snake
         squares[appleIndex].classList.add('apple'); 
-        
     };
 
     //assign functions to keycodes 
@@ -105,7 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // event.keyCode : https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/keyCode
         //"if the key pressed is right arrow"
         if(e.keyCode === 39){
-            direction = 1; //the snake will go right on
+            direction = 1;//the snake will go right on
         }else if(e.keyCode === 38){ //"or if the key pressed is up arrow"
             direction = -width //the snake will go back 10 divs, appearing to go up
         }else if(e.keyCode === 37){ //"or if the key pressed is left arrow"
@@ -116,10 +115,5 @@ document.addEventListener('DOMContentLoaded', () => {
     //then we use the event keyup to execute the function control, so everytime a key is released the event will run the function 
     document.addEventListener("keyup", control); 
     startBtn.addEventListener("click", startGame); 
-
-    ///TO DO 
-    //Using the event keydown (and keyup ?) instead of keycode in a switchcase
-    //Add a game over message everytime the snake hits itslef or hits the walls of the grid
-    
 
 }); 
