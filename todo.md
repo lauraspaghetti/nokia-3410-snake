@@ -16,6 +16,6 @@ Légende :
 
 ## Style  
 
-1. Add a container 🚀  
+1. Add a container ✅
 2. Typos 🚀
 3. Add style on  the start/stop btn  
