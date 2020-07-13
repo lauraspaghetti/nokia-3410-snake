@@ -1,7 +1,5 @@
 # Work in progress
 
-Légende :
-
 - 🚀  in progress
 - ✅  done  
 
@@ -16,11 +14,11 @@ Légende :
 
 ## HTML  
 
-1. Add rules of the game 🚀  
+1. Add rules of the game ✅  
 
 ## Style  
 
 1. Add a container ✅
-2. Typos  
+2. Typos 🚀  
 3. Header / Main / Footer  
 4. Add style on  the start/stop btn  
