@@ -15,10 +15,15 @@
 ## HTML  
 
 1. Add rules of the game ✅  
+2. Add a favicon 🚀  
 
 ## Style  
 
 1. Add a container ✅
 2. Typos ✅  
-3. Header / Main / Footer 🚀  
-4. Add style on  the start/stop btn  
+3. Header / Main / Footer ✅  
+4. Add style on  the start/stop btn ✅  
+
+## Bugs  
+
+1. Get rid of the scrollbar  
