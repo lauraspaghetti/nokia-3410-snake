@@ -16,6 +16,22 @@ html, body {
     text-align              : center;
 }
 
+/********************************************
+ ******************* TYPOS ******************
+*********************************************/
+
+/*
+font-family: 'Press Start 2P', cursive;
+font-family: 'Dosis', sans-serif;
+*/
+
+h1, h4, footer, .score{
+    font-family: 'Press Start 2P', cursive;
+}
+
+p{
+    font-family: 'Dosis', sans-serif;
+}
 
 /********************************************
  ******************* MAIN ******************
