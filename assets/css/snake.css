@@ -7,8 +7,10 @@
 html, body {
     margin                  : 0;
     padding                 : 0;
-    height                  :100%;
+    height                  : 100%;
     font-size               : 17px;
+    color                   : #001000;
+    background              : #c6cbb4;
 }
 
 .container{
@@ -17,37 +19,70 @@ html, body {
     text-align              : center;
 }
 
+a{
+    color                   : white;
+    text-decoration         : none;
+}
+
+a:hover{
+    color                   : #c6cbb4;
+}
+
 /********************************************
  ******************* TYPOS ******************
 *********************************************/
 
 /*
-font-family: 'Press Start 2P', cursive;
-font-family: 'Dosis', sans-serif;
+font-family                 : 'Press Start 2P', cursive;
+font-family                 : 'Dosis', sans-serif;
 */
 
-h1, h4, footer, .score{
-    font-family: 'Press Start 2P', cursive;
+h1, h3, h4, footer, .score{
+    font-family             : 'Press Start 2P', cursive;
+    font-size               : 17px;
+    letter-spacing          : 2px;
 }
 
 h1{
-    font-size: 30px;
+    font-size               : 30px;
 }
 
 #game-over{
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 30px;
-    font-weight: bold;
+    text-transform          : uppercase;
+    letter-spacing          : 4px;
+    font-size               : 30px;
+    font-weight             : bold;
 }
 
 p, button{
-    font-family: 'Dosis', sans-serif;
+    font-family             : 'Dosis', sans-serif;
+}
+
+/********************************************
+ ******************* HEADER *****************
+*********************************************/
+
+header{
+    text-align              : center;
+}
+
+h1{
+    margin                  : 1rem 0 3rem 0;
 }
 
 /********************************************
  ******************* MAIN ******************
 *********************************************/
+
+button{
+    margin                  : 0 0 2rem 0; 
+    background              : #000;
+    border                  : none;
+    color                   : white;
+    letter-spacing          : 2px;
+    font-weight             : bold;
+    padding                 : 0.5rem;
+}
 
 .grid {
     width                   : 200px;
@@ -64,10 +99,31 @@ p, button{
 }
 
 .snake {
-    background-color        : blue;
+    background-color        : #001000;
 
 }
 
 .apple {
-    background-color        : purple;
+    background-color        : #011e01b8;
+}
+
+.grid + div{
+    margin                  : 3rem 0 0 0; 
+    text-align              : center;
+}
+
+/********************************************
+ ****************** FOOTER ******************
+*********************************************/
+
+footer{
+    background              : rgb(31, 31, 31);
+    color                   : white;
+    padding                 : 1px 0 1px 0; 
+    margin-top: 10%; 
+    position                : fixed;
+    bottom                  : 0;
+    width                   : 100%;
+    height                  : 55px;
+    text-align              : center;
 }
