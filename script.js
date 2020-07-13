@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             (currentSnake[0] - width < 0 && direction === -width)    || //if the snake hits the top
             squares[currentSnake[0] + direction].classList.contains('snake') //if the snake goes into itself
         ){
-            document.getElementById("game-over").innerHTML = "GAME OVER"; 
+            document.getElementById("game-over").innerHTML = "game over"; 
             return clearInterval(interval);
         }; 
         // array.pop : "removes the last element from an array and returns that element" from : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop

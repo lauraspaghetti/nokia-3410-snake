@@ -8,6 +8,7 @@ html, body {
     margin                  : 0;
     padding                 : 0;
     height                  :100%;
+    font-size               : 17px;
 }
 
 .container{
@@ -29,7 +30,18 @@ h1, h4, footer, .score{
     font-family: 'Press Start 2P', cursive;
 }
 
-p{
+h1{
+    font-size: 30px;
+}
+
+#game-over{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p, button{
     font-family: 'Dosis', sans-serif;
 }
 
