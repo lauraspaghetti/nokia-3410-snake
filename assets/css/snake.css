@@ -111,6 +111,7 @@ button{
     text-align              : center;
 }
 
+
 /********************************************
  ****************** FOOTER ******************
 *********************************************/
@@ -135,33 +136,49 @@ footer{
 @media screen and (max-width: 760px) {
 
     .container{
-        max-width             : 700px;
-        margin                : auto;
-        text-align            : center;
+        max-width           : 700px;
+        margin              : auto;
+        text-align          : center;
     }
 
     h1, h3, h4, footer, .score{
-        font-family           : 'Press Start 2P', cursive;
-        font-size             : 13px;
-        letter-spacing        : 2px;
+        font-family         : 'Press Start 2P', cursive;
+        font-size           : 13px;
+        letter-spacing      : 2px;
     }
     
     h1{
-        font-size             : 24px;
+        font-size           : 24px;
         line-height: 30px;
-        margin                : 1rem 0 2rem 0;
+        margin              : 1rem 0 2rem 0;
 
     }
 
     .grid + div{
-        margin                : 2rem 0 5rem 0; 
-        text-align            : center;
+        margin              : 2rem 0 5rem 0; 
+        text-align          : center;
     }
 
     footer h3{
-        line-height           : 17px;
-        padding-left          : 0.8rem;
-        padding-right         : 0.8rem;
+        line-height         : 17px;
+        padding-left        : 0.8rem;
+        padding-right       : 0.8rem;
     }
+
+}
+
+/* For large screens */
+
+@media only screen  and (min-width : 1224px){
+
+    h1{
+        margin              : 3rem 0 3rem 0;
+    }
+
+    .grid + div{
+        margin              : 6rem 0 0 0; 
+        text-align          : center;
+    }
+
 
 }
