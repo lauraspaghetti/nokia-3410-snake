@@ -125,3 +125,43 @@ footer{
     height                  : 55px;
     text-align              : center;
 }
+
+/**********************************
+*********** MEDIA QUERIES *********
+***********************************/
+
+/* For smarthphones */
+
+@media screen and (max-width: 760px) {
+
+    .container{
+        max-width             : 700px;
+        margin                : auto;
+        text-align            : center;
+    }
+
+    h1, h3, h4, footer, .score{
+        font-family           : 'Press Start 2P', cursive;
+        font-size             : 13px;
+        letter-spacing        : 2px;
+    }
+    
+    h1{
+        font-size             : 24px;
+        line-height: 30px;
+        margin                : 1rem 0 2rem 0;
+
+    }
+
+    .grid + div{
+        margin                : 2rem 0 5rem 0; 
+        text-align            : center;
+    }
+
+    footer h3{
+        line-height           : 17px;
+        padding-left          : 0.8rem;
+        padding-right         : 0.8rem;
+    }
+
+}
