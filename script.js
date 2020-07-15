@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //Defining the game's width
     const width                = 10; 
     //Initializing the positions 
-    let currentIndex           = 0; //is now on the first div in our grid
+    let currentIndex           = 0; // is now on the first div in our grid
     let appleIndex             = 0; // is now on the first div in our grid too
     //Defining the snake
     let currentSnake           = [2, 1, 0]; //all divs with a values of 2 will be the head, all 0's the end and all 1's the body
@@ -40,6 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
         currentIndex           = 0; 
         currentSnake.forEach(index => squares[index].classList.add('snake')); 
         interval               = setInterval(moveOutComes, intervalTime); //moveOutComes will deal with all the user's decisions to move the snake
+        document.getElementById("game-over").innerHTML = " "; 
     }; 
 
     //to deal with all the move outcomes of the snake
