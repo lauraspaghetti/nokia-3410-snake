@@ -63,11 +63,9 @@ p, button{
 
 header{
     text-align              : center;
-}
-
-h1{
     margin                  : 1.5rem 0 3rem 0;
 }
+
 
 /********************************************
  ******************* MAIN ******************
@@ -107,7 +105,7 @@ button{
 }
 
 .grid + div{
-    margin                  : 3rem 0 5rem 0; 
+    margin                  : 3rem 0 6rem 0; 
     text-align              : center;
 }
 
@@ -120,11 +118,11 @@ footer{
     background              : rgb(31, 31, 31);
     color                   : white;
     padding                 : 1px 0 1px 0; 
-    position                : fixed;
-    bottom                  : 0;
     width                   : 100%;
-    height                  : 55px;
+    height                  : 60px;
     text-align              : center;
+    position: fixed;
+    bottom: 0;
 }
 
 /**********************************
@@ -134,6 +132,10 @@ footer{
 /* For smarthphones */
 
 @media screen and (max-width: 760px) {
+
+    header{
+        margin              : 1rem 0 2rem 0;
+    }
 
     .container{
         max-width           : 700px;
@@ -150,8 +152,6 @@ footer{
     h1{
         font-size           : 24px;
         line-height: 30px;
-        margin              : 1rem 0 2rem 0;
-
     }
 
     .grid + div{
@@ -171,14 +171,13 @@ footer{
 
 @media only screen  and (min-width : 1224px){
 
-    h1{
-        margin              : 3rem 0 5rem 0;
+    header{
+        margin              : 2.5rem 0 1rem 0;
     }
 
     .grid + div{
         margin              : 3rem 0 0 0; 
         text-align          : center;
     }
-
 
 }
