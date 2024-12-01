@@ -1,3 +1,1 @@
-# nokia-3410-snake
-
-This is a snake mini game, styled as Nokia 3410's was during its glorious era.  
+This is a snake mini-game, styled after that of the Nokia 3310 during its glorious era.
